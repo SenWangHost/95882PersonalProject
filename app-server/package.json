@@ -1,0 +1,27 @@
+{
+  "name": "app-server",
+  "version": "1.0.0",
+  "description": "Node Server for News APP",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SenWangHost/95882PersonalProject.git"
+  },
+  "keywords": [
+    "News",
+    "Web",
+    "Application"
+  ],
+  "author": "Sen Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SenWangHost/95882PersonalProject/issues"
+  },
+  "homepage": "https://github.com/SenWangHost/95882PersonalProject#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
