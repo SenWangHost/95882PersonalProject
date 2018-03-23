@@ -1,0 +1,11 @@
+.container {
+    background-color: #1976D2;
+    height: 10vh;
+    padding-top: 2vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
