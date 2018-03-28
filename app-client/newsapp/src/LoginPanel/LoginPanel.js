@@ -1,16 +1,17 @@
 import React from 'react';
 import './LoginPanel.css';
 
-import { Card, Icon, Image } from 'semantic-ui-react'
+import { Card, Icon, Image } from 'semantic-ui-react';
+import LoginForm from '../LoginForm/LoginForm';
 
 class LoginPanel extends React.Component {
     render() {
         return (
             <div>
-                <Card>
-                    <Card.Content header='About Amy' />
+                <Card className="centered">
+                    <Card.Content header='Login or Register' />
                     <Card.Content>
-                        This is description that we needs!
+                        <LoginForm />
                     </Card.Content>
                     <Card.Content extra>
                     <Icon name='user' />
